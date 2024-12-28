@@ -7,12 +7,13 @@ public class patterns {
 
 
         Scanner sc =new Scanner(System.in);
+        System.out.print("Enter the number :");
         int n =sc.nextInt();
         char ch ='A';
 
         for (int i =1; i<=n; i++){
 
-            for (int nu =1; nu<=i; nu++){
+            for (int chars =1; chars<=i; chars++){
                 System.out.print(ch);
                 ch++;
             }
