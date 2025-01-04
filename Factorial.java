@@ -10,13 +10,18 @@ public class Factorial {
   }
   return f;
  }
-  
+ 
+
+ 
 
     public static void main(String args[]){
-      System.out.print("Enter a number");
       Scanner sc =new Scanner(System.in);
+      System.out.print("Enter a number");
+     
        int number=sc.nextInt();
-       System.out.print(factorial(number)+"");
+    
+     
+  ;
 
        sc.close();
     
