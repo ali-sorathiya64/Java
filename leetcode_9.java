@@ -1,11 +1,11 @@
 public class leetcode_9 {
 
     public static boolean palindrome_number(int x){
-        
         while (x<0){
       return false;
-            
+
         }
+        
         int n =x;
         int rev=0;
 while (n>0) {
@@ -28,7 +28,5 @@ while (n>0) {
     }
     public static void main(String args[]){
         palindrome_number(111);
-
-
     }
 }
