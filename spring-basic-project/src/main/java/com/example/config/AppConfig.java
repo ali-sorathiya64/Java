@@ -11,7 +11,7 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("com.example")
 public  class AppConfig {
 
-    @Bean(initMethod = "init" ,destroyMethod = "cleanUp")
+    @Bean(initMethod = "init",destroyMethod = "cleanUp")
     public DatabaseConnection databaseConnection(){
         return  new DatabaseConnection();
     }
