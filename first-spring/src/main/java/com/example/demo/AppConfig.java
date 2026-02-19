@@ -12,6 +12,8 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
  @Bean(initMethod = "init" , destroyMethod = "cleanUp")
+
+
     public BeanLifecycle beanLifecycle(NotificationService notificationService){
      return new BeanLifecycle(notificationService);
 
