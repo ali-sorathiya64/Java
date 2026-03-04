@@ -11,7 +11,7 @@ public class MainApp {
 
        UserController userController =  context.getBean(UserController.class);
 
-       userController.createUser("Ali sorathiya");
+       userController.createUser("Demo");
        userController.ListUser();
     }
 }
