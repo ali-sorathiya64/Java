@@ -7,6 +7,8 @@ public class Account {
     private String accountType;
 
 
+
+
     public Account(String accountNumber, String customerId,
                    Double balance,
                    String accountType) {
